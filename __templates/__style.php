@@ -1,9 +1,4 @@
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Responsive Bootstrap Layout</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <style>
+<style>
         /* Custom styles */
         .navbar-dark .navbar-toggler-icon {
             color: #ffffff;
@@ -227,6 +222,28 @@
     border-radius: 6px 6px 0 0;
 }
 
+.card-image-1 {
+    background-image: url("/responsive_web_1/assert/roof.png");
+    background-size: cover;
+    width: 100%;
+    height: 550px; /* Set maximum height for images */
+    border-radius: 6px 6px 0 0;
+}
+.card-image-2 {
+    background-image: url("/responsive_web_1/assert/spa.png");
+    background-size: cover;
+    width: 100%;
+    height: 550px; /* Set maximum height for images */
+    border-radius: 6px 6px 0 0;
+}
+.card-image-3 {
+    background-image: url("/responsive_web_1/assert/section-4.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 550px; /* Set maximum height for images */
+    border-radius: 6px 6px 0 0;
+}
+
 .category {
     text-transform: uppercase;
     font-size: 0.7em;
@@ -242,22 +259,21 @@
 }
 
 .btn-group {
-    margin-bottom: 10px; /* Add spacing between buttons and other elements */
+    margin-bottom: 10px; 
 }
 
 .btn-group .btn {
-    margin-right: 5px; /* Add spacing between buttons */
+    margin-right: 5px; 
 }
 
 @media (max-width: 576px) {
     .cards {
-        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Adjust column width for smaller screens */
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); 
     }
 
     .card-image {
-        height: 150px; /* Reduce image height for smaller screens */
+        height: 150px; 
     }
 }
 
     </style>
-</head>

@@ -10,6 +10,10 @@
     load_template('__head')
 ?>
 
+<?php
+    load_template('__style')
+?>
+
 <body>
     <?php
         load_template('__header')
